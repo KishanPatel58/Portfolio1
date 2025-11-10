@@ -48,7 +48,7 @@ const Projects = () => {
                             <div className="w-full h-[20%] !py-[10px]">
                             <h1 className='text-white text-center text-3xl font-[font2]'>{projects.title}</h1>
                             </div>
-                            <div className="w-full h-[60%] grid grid-cols-4 !h-[30px] gap-4 !p-[5px] justify-center drop-shadow-[0px_0px_10px_blueviolet]">
+                            <div className="w-full h-[60%] grid grid-cols-3 !h-[30px] gap-4 !p-[5px] justify-center drop-shadow-[0px_0px_10px_blueviolet]">
                                 {projects.language.map((lang,index)=>(
                                     <div 
                                     key={index}
