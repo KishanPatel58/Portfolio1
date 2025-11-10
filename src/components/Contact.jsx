@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { ToastContainer, toast, Bounce } from 'react-toastify';
@@ -11,7 +10,7 @@ const Contact = () => {
   const [name, setname] = useState("")
   const [message, setmessage] = useState("")
   const success = () => {
-      toast.success('Message Send Successfully! ✅', {
+      toast.success('Message Send Successfully! Kishan Patel will give you Reply as soon as possible.✅', {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
@@ -117,7 +116,7 @@ const Contact = () => {
           name='from_name'
           onChange={Name}
           required
-          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 transition-all duration-300"
+          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 transition-all duration-300 !text-[blueviolet]"
         />
 
         <input
@@ -127,7 +126,7 @@ const Contact = () => {
           value={email}
           onChange={Email}
           required
-          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 transition-all duration-300"
+          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 transition-all duration-300 !text-[blueviolet]"
         />
 
         <textarea
@@ -137,7 +136,7 @@ const Contact = () => {
           onChange={Message}
           rows="4"
           required
-          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 resize-none transition-all duration-300"
+          className="!p-3 rounded-lg bg-transparent border border-[blueviolet] focus:outline-none focus:ring-2 focus:ring-[blueviolet] placeholder-gray-300 resize-none transition-all duration-300 !text-[blueviolet]"
         ></textarea>
 
         <button
