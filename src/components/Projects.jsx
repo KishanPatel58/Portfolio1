@@ -43,8 +43,8 @@ const Projects = () => {
             </div>
             <div className="w-full h-[90%] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 ">
                 {project.map((projects, index) => (
-                    <div id={`id${index}`} className={`relative group card w-[90%] h-[400px] !mt-[20%] !ml-auto !mr-auto rounded-xl overflow-hidden`}>
-                        <div className="intro rounded-[50%] bg-[#000000e6] absolute top-[100%] left-0 w-full h-full flex flex-col justify-center group-hover:top-0 group-hover:rounded-[0%] transition-all duration-300 gap-[35px]">
+                    <div id={`id${index}`} className={`relative card w-[90%] h-[400px] !mt-[20%] !ml-auto !mr-auto rounded-xl overflow-hidden`}>
+                        <div className="intro bg-[#421F63] absolute top-[0] left-0 w-full h-full flex flex-col justify-center transition-all duration-300 gap-[35px]">
                             <div className="w-full h-[20%] !py-[10px]">
                             <h1 className='text-white text-center text-3xl font-[font2]'>{projects.title}</h1>
                             </div>

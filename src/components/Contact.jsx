@@ -103,7 +103,7 @@ const Contact = () => {
       <form
         onSubmit={sendEmail}
         ref={form}
-        className="backdrop-blur-md bg-[#421F63] border-4 border-[blueviolet] rounded-2xl p-8 !w-[90%] h-[50%] sm:!w-[70%] shadow-[0_0_15px_blueviolet] flex flex-col gap-4 !p-[20px] font-bold md:!w-[60%] lg:!w-[50%]"
+        className="backdrop-blur-md bg-[#421F63] border-4 border-[blueviolet] rounded-2xl p-8 !w-[90%] h-[60%] sm:!w-[70%] shadow-[0_0_15px_blueviolet] flex flex-col gap-7 !p-[20px] font-bold md:!w-[60%] lg:!w-[50%] justify-center"
       >
         <h2 className="text-3xl font-semibold text-center mb-2 text-white">
           Let's Connect
