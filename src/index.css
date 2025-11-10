@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+  scroll-behavior: smooth !important;
+}
+
+html, body {
+  height: 100% !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body{
+  background-color: #000;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+/* fonts */
+@font-face {
+  font-family: font1;
+  src: url('./fonts/AkayaKanadaka-Regular.ttf');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('./fonts/Delius-Regular.ttf');
+}
+
+#id0{
+  background-image: url('../src/assets/projectwebsite.png');
+}
+
+#id1{
+  background-image: url('../src/assets/portfolio2.0.png');
+}
+
+#id2{
+  background-image: url('../src/assets/ganeshchaturthiinvitation.png');
+}
+
+#id3{
+  background-image: url('../src/assets/portfolio1.0.png');
+}
+
+#id0,#id1,#id2,#id3{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
