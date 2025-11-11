@@ -60,6 +60,7 @@ const Contact = () => {
   const Message = (k) => {
       setmessage(k.target.value)
   }
+  
   return (
     <section className="relative w-screen h-screen flex items-center justify-center flex-col">
       <div className="bricks-back fixed top-0 left-0 -z-[10] w-screen h-screen grid grid-cols-12 gap-2">

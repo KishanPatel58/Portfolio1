@@ -24,7 +24,7 @@ const Work = () => {
         {/* row1 */}
         <div className="col-span-2 bg-[#36194D] rounded-2xl animate-pulse border-2 border-blue drop-shadow-[0px_0px_10px_blueviolet]"></div>
         <div className="col-span-3 bg-[#36194D] rounded-2xl animate-pulse border-2 border-blue drop-shadow-[0px_0px_10px_blueviolet] flex items-center justify-center">
-          <h1 className='text-white text-2xl md:text-5xl'>{text1},<Cursor /></h1>
+          <h1 className='text-white text-center text-2xl md:text-5xl'>{text1},<Cursor /></h1>
         </div>
         <div className="col-span-4 bg-[#36194D] rounded-2xl animate-pulse border-2 border-blue drop-shadow-[0px_0px_10px_blueviolet] flex items-center justify-center">
         </div>
