@@ -111,7 +111,7 @@ const Contact = () => {
 
         <input
           type="text"
-          placeholder="Your Name 👨🏻‍🦱"
+          placeholder="Your Name 🧑🏻‍💼"
           value={name}
           name='from_name'
           onChange={Name}
