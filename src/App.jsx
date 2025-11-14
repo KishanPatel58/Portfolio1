@@ -6,11 +6,13 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import CharacterCursors from './components/ui/CharacterCursor'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
     <>
       {/* All Routes */}
+      <Analytics/>
       <CharacterCursors/>
       <Navbar/>
       <Routes>
