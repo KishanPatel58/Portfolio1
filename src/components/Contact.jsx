@@ -10,8 +10,8 @@ const Contact = () => {
   const [name, setname] = useState("")
   const [message, setmessage] = useState("")
   const success = () => {
-      toast.success('Message Send Successfully! Kishan Patel will give you Reply as soon as possible.✅', {
-          position: "top-right",
+      toast.success('Email Send Successfully! Kishan Patel will give you Reply as soon as possible.✅', {
+          position: "top-center",
           autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: false,
